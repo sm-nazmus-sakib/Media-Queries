@@ -1,0 +1,39 @@
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.menu li{
+      padding: 8px;
+      margin-bottom: 7px;
+      color: black;
+      background-color: aqua;
+  }
+
+ .menu li:hover{
+   background-color: blueviolet;
+ } 
+.aside{
+      padding: 8px;
+      margin-bottom: 7px;
+      color: rgb(207, 107, 14);
+      background-color: aqua;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+@media only screen and (max-width:768px) {
+  [class*="col-"]
+  {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:400px){
+  [class*="col-"]
+  {width: 50%;}
+}
